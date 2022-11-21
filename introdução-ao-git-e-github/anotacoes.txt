@@ -1,0 +1,11 @@
+o git bash é um terminal extendido para otimizar o uso do git.
+cd:comando para navegar e entrar em repositorios dentro do seu terminal.
+del:deletar arquivos dentro do repositorios(pasta).
+echo:comando para exibir no terminal.
+/ : barra é um comando usado para direcionar para repositorios(arquivos), em conjunto com o comando (cd).
+"" : indicar o que é pra ser exibido no terminal.
+> : redirecionador de fluxo (para condozir diretoriosou arquivos).
+tab: auxilia completando comandos ja escritos no terminal.
+ls: lista conteudos de repositorios no terminal.
+ctrl+ L: limpar terminal.
+dir: lista de diretorios(pasta). 
