@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        table { box-shadow: 23px -20px 44px -3px rgba(155,209,209,0,84);
+-webkit-box-shadow: 23px -20px 44px -3px rgba(155,209,209,0,84);
+-moz-box-shadow: 23px -20px 44px -3px rgba(155,209,209,0,84); }
+        table {
+            border: solid 1px black;
+        }
+        table tr:nth-child(even) {
+            background-color: rgb(197, 249, 199);
+        }
+        table tr:hover td {
+            background-color: antiquewhite;
+            cursor:pointer ;
+        }
+        table thead th {
+            background-color: black;
+            color: rgb(250, 252, 253); 
+    
+        }
+        table tfoot td {
+            background-color:rgb(125, 152, 157);
+        }
+        table tbody tr:nth-child(even) td { background-color: rgb(227, 233, 236);
+
+        }
+    </style>
+</head>
+
+<body>
+    <table summary="Primeira tabela usando html" width="250" cellspacing="o" cellpadding="5" align="center">
+        <caption>Exemplo minha primeira tabela:</caption>
+        <thead>
+            <tr>
+                <th title="Nome completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="1">
+                <td>Amanda</td>
+                <td>23
+                </td>
+            <tr id="2">
+                <td>bruna</td>
+                <td>19</td>
+            </tr>
+            <tr id="3">
+                <td>Yara</td>
+                <td>35</td>
+            </tr>
+            <tr id="4">
+                <td>Juliana</td>
+                <td>28</td>
+            </tr>
+            <tr id="5">
+                <td>Ivana</td>
+                <td>25</td>
+            </tr>
+            <tr id="6">
+                <td>Jovana</td>
+                <td>31</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="6">
+                <td>total</td>
+                <td>31</td>
+            </tr>
+        </tfoot>
+        </tr>
+    </table>
+</body>
+
+</html>
